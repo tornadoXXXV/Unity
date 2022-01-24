@@ -14,7 +14,6 @@ public class vanish : MonoBehaviour
         seconds += Time.deltaTime;
         if (seconds >= EndTime)
         {
-            // Debug.Log("ヨシ！");
             // エフェクトを発生させる
             GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
 
