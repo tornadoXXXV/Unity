@@ -96,33 +96,4 @@ public class PlayerHealth : MonoBehaviour
     {
         isMuteki = false;
     }
-
-    // public void AddHP(int amount)
-    // {
-    //     // 「amount」分だけHPを回復させる
-    //     playerHP += amount;
-
-    //     // 最大HP以上には回復しないようにする。
-    //     if (playerHP > maxHP)
-    //     {
-    //         playerHP = maxHP;
-    //     }
-
-    //     // HPスライダー
-    //     hpSlider.value = playerHP;
-    // }
-
-    // public void Player1UP(int amount)
-    // {
-    //     //破壊された数をamount分だけ減らす
-    //     destroyCount -= amount;
-
-    //     if(destroyCount < 0)
-    //     {
-    //         destroyCount = 0;
-    //     }
-
-    //     //残k数表示
-    //     UpdatePlayerIcons();
-    // }
 }
