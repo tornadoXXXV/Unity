@@ -21,7 +21,7 @@ public class vanish : MonoBehaviour
             // 0.5秒後にエフェクトを消す
             Destroy(effect, 0.5f);
 
-            // 親オブジェクトを破壊する）
+            // 親オブジェクトを破壊する
             Destroy(transform.root.gameObject);
 
             // 効果音を出す
