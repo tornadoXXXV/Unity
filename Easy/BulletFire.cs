@@ -28,7 +28,7 @@ public class BulletFire : MonoBehaviour
 
                 Rigidbody BulletRb = Bullet.GetComponent<Rigidbody>();
 
-                // ミサイルを飛ばす方向を決める。「forward」は「z軸」方向をさす（ポイント）
+                // ミサイルを飛ばす方向を決める。「forward」は「z軸」方向をさす
                 BulletRb.AddForce(transform.forward * speed);
 
                 //AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
@@ -44,7 +44,7 @@ public class BulletFire : MonoBehaviour
 
                 Rigidbody BulletDRb = BulletD.GetComponent<Rigidbody>();
 
-                // ミサイルを飛ばす方向を決める。「forward」は「z軸」方向をさす（ポイント）
+                // ミサイルを飛ばす方向を決める。「forward」は「z軸」方向をさす
                 BulletDRb.AddForce(transform.forward * speed);
 
                 //AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
